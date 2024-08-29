@@ -1,4 +1,4 @@
 package com.authAuten.authAuten.domain.user;
 
-public record AuthDTO() {
+public record AuthDTO(String login, String password) {
 }
